@@ -1,0 +1,10 @@
+E:\Roberto Medina\Documents\logicaprop\logicaprop\bin\Debug\logicaprop.exe.config
+E:\Roberto Medina\Documents\logicaprop\logicaprop\bin\Debug\logicaprop.exe
+E:\Roberto Medina\Documents\logicaprop\logicaprop\bin\Debug\logicaprop.pdb
+E:\Roberto Medina\Documents\logicaprop\logicaprop\obj\Debug\logicaprop.csprojAssemblyReference.cache
+E:\Roberto Medina\Documents\logicaprop\logicaprop\obj\Debug\logicaprop.Form1.resources
+E:\Roberto Medina\Documents\logicaprop\logicaprop\obj\Debug\logicaprop.Properties.Resources.resources
+E:\Roberto Medina\Documents\logicaprop\logicaprop\obj\Debug\logicaprop.csproj.GenerateResource.cache
+E:\Roberto Medina\Documents\logicaprop\logicaprop\obj\Debug\logicaprop.csproj.CoreCompileInputs.cache
+E:\Roberto Medina\Documents\logicaprop\logicaprop\obj\Debug\logicaprop.exe
+E:\Roberto Medina\Documents\logicaprop\logicaprop\obj\Debug\logicaprop.pdb
