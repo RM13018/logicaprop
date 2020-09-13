@@ -16,6 +16,10 @@ namespace logicaprop
         public Form1()
         {
             InitializeComponent();
+            textBox1.Text.ToLower();
+            textBox2.Text.ToLower();
+            textBox3.Text.ToLower();
+            textBox4.Text.ToLower();
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -51,13 +55,21 @@ namespace logicaprop
             {
                 MessageBox.Show("Error de logica vacio", "error");
             }
-            else if (textBox5.Text.Contains("Y")) 
+            else if (textBox5.Text.Contains("Y"))
             {
-                if (textBox5.Text.Contains(textBox1.Text) && textBox5.Text.Contains(textBox2.Text)) 
+                if (textBox5.Text.Contains(textBox1.Text) && textBox5.Text.Contains(textBox2.Text))
                 {
-                    if (p = false && p.Equals(q)) { MessageBox.Show("falso", "valor de sentencia simple"); }
-                    else if (p = true && p.Equals(q)) { MessageBox.Show("verdadero", "valor de sentencia simple"); }
+                    if (p.Equals(q)) { MessageBox.Show(p.ToString(), "valor de sentencia simple"); }
+                    else { MessageBox.Show("falso", "valor de sentencia simple"); }
                 }
+                else if (textBox5.Text.Contains(textBox1.Text) && textBox5.Text.Contains(textBox3.Text)) 
+                {
+                    if (p.Equals(r)) { MessageBox.Show(p.ToString(), "valor de sentencia simple"); }
+                    else { MessageBox.Show("Falso", "valor de sentencia simple"); }
+                }
+            }
+            else if (textBox5.Text.Contains("O")) 
+            {
             }
         }
 
@@ -66,13 +78,42 @@ namespace logicaprop
 
         }
 
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton6.Checked && textBox3.Text != "")
+            {
+                r = true;
+                MessageBox.Show(r.ToString(), textBox3.Text);
+            }
+        }
+
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton5.Checked && textBox3.Text != "")
+            {
+                r = false;
+                MessageBox.Show(r.ToString(), textBox3.Text);
+            }
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string pt = textBox1.Text;
             
         }
 
